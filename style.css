@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mentor{
+    color: green;
+    text-shadow: 20px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 25px;
+    float: left;
+ 
+}
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.getstarted{
+    background-color: #5fcf80;
+    width: 20px;
+}
+.nav li{
+    list-style: none;
+}
+.nav li a:hover{
+    color: #5fcf80;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.head1{
+    background-image: url(https://i.ibb.co/5MspXsP/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: normal;
+    height: 100vh;
+    padding-left: 190px;
+    padding-top: 50px; 
+    color: white;
+}
+.learn{
+    font-size: 60px;
+}
+.getstarted{
+    border: 1px solid black;
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    width: 30px;
+}
+.getstarted:hover{
+    cursor: pointer;
+    background-color: rgb(161, 188, 161);
+}
+.aboutimg{
+    display: flex;
+    height: 320px;
+    width: 400px;
+}
+.head2{
+    display: flex;
+    margin: 40px 200px 100px 100px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    justify-content: center;
+    text-align: justify;
+    color: rgb(54, 44, 44);
+}
+.numbers{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin: 120px;
+    max-width: 100%; 
+    padding: 10px;
+    
+}
+.numbers h1{
+    color: rgb(90, 189, 90);
+}
+.head3{
+    display: flex;
+    margin: 80px;
+    justify-content: center;
+}
+.greenbox{
+    background-color: rgb(70, 144, 70);
+    width: 500px;
+    max-height: auto;
+    border: 1px;
+    border-radius: 4px;
+    padding: 20px;
+    color: rgb(222, 203, 203);  
+}
+.rightbox{
+    margin: 50px;
+    line-height: 20px;
+    max-height: auto;
+}
+.learnmore{
+    border: 1px solid rgb(70, 144, 70);
+    border-radius: 10px;
+    background-color: rgb(120, 117, 117);
+    padding: 4px;
+    color: black;
+    margin: 50px;
+    text-decoration: none;
+}
+.emoji{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.boxs p{
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 25px;
+    width: 150px;
+    max-width: auto;
+    max-height: auto;
+}
+.boxs p:hover{
+    border: 1px solid rgb(40, 194, 40);
+}
+.course-1{
+    width: 340px;
+    height: 250px;
+}
+.Trainers{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.doll{
+    display: flex;
+    justify-content: space-between;
+}
+.Course{
+    width: 340px;
+    height: auto;
+    line-height: 40px;
+    border: 1px solid rgb(245, 232, 232);
+    margin: 17px;
+}
+.imgp{
+    text-align: justify;
+    line-height: normal;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+}
+.profile{
+    padding-right: 150px;
+}
+.Coursehead{
+    display: flex;
+    justify-content: center;
+    max-height: auto;
+    margin: 10px;
+}
+.greentitle{
+    background-color: rgb(69, 134, 69);
+    border: 1px solid grey;
+    width: 140px;
+    text-align: center;
+    color:white;
+}
+.Coursehead a{
+    text-decoration: none;
+}
+.Coursetext{
+    color: black;
+}
+.Coursetext:hover{
+    color: green;
+}
+.trainer-1{
+    width: 340px;
+    height: 374px;
+}
+.trainerhead{
+    text-align: center;
+    border: 1px solid rgb(205, 205, 205);
+    max-height: auto;
+    width: 340px;
+    margin: 17px;
+}
+.th{
+    display: flex;
+    justify-content: center;
+}
+.trainerhead p{
+    color: grey;
+}
+.social a{
+    color: black;
+    padding: 5px;
+}
+.social a:hover{
+    color: green;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 30px;
+    line-height: 20px;
+    max-width: auto;
+    max-height: auto;
+}
+.address p{
+    color: grey;
+}
+.address a{
+    text-decoration: none;
+}
+.address a p:hover{
+    color: #5fcf80;
+}
+.arrow i{
+    border-radius: 20px;
+    padding: 10px;
+    float: right;
+    background-color: #5fcf80;
+    color: white;
+}
+.downbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 226, 226);
+    margin-top: 25px;
+    padding: 20px;
+}
+.skype a{
+    border-radius: 20px;
+    padding: 12px;
+    float: right;
+    background-color: #5fcf80;
+    color: black;
+}
+.skype a:hover{
+    color: #d9d9d9;
+}
