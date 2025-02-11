@@ -24,7 +24,8 @@
 }
 .slide{
     display: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
 }
 .slide h1{
     color: #5fcf80;
@@ -43,7 +44,8 @@
     text-decoration: none;
 }
 .navul li a:hover{ 
-    color: #5fcf80;
+    color: black;
+    background-color: #5fcf80;
 }
 nav{
     height: 60px;
@@ -67,7 +69,9 @@ nav ul{
     background-image: url(https://i.ibb.co/5MspXsP/hero-bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     width: 100%;
+    filter: brightness(50%);
     background-size: cover;
     line-height: normal;
     height: 440px;
@@ -120,7 +124,7 @@ nav ul{
 
 }
 .numbers h1{
-    color: rgb(90, 189, 90);
+    color: rgb(34, 80, 34);
 }
 .head3{
     display: flex;
@@ -129,7 +133,7 @@ nav ul{
     gap: 55px;
 }
 .greenbox{
-    background-color: rgb(122, 247, 122);
+    background-color: rgb(16, 91, 16);
     width: 320px;
     max-height: auto;
     border: 1px;
@@ -170,7 +174,7 @@ font-size: 20px;
     padding-left: 100px;
     padding-right: 100px;
     margin: 50px;
-    gap: 100px;
+    gap: 75px;
 }
 .boxs p{
     border: 1px solid grey;
@@ -322,9 +326,11 @@ font-size: 20px;
         display: none;
     }
     nav{
+        width: 100%;
         height: 50px;
     }
     .head1{
+        width: 100%;
         padding-left: 0;
         padding-right: 0;
     }
@@ -332,7 +338,9 @@ font-size: 20px;
         display: none;
     }
     .head2{
-        display: block;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
         justify-content: center;
     }
     .rightbox{
@@ -374,6 +382,9 @@ font-size: 20px;
     .slide{
         display: flex;
         justify-content: space-between;
+    }
+    .arrow{
+        display: none;
     }
 
 }
